@@ -21,9 +21,9 @@ channel3.save!
 puts 'Channels created!'
 
 puts 'Now creating some users'
-user1 = User.new(email: "john@smith.fr", password: "secret")
+user1 = User.new(email: "john@smith.fr", nickname: 'john', password: "secret")
 user1.save!
-user2 = User.new(email: "kelly@slater.fr", password: "secret")
+user2 = User.new(email: "kelly@slater.fr", nickname: 'kelly', password: "secret")
 user2.save!
 puts "Users were created !"
 
